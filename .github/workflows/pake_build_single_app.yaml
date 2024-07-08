@@ -5,41 +5,41 @@ on:
       name:
         description: 'app name'
         required: true
-        default: 'twitter'
+        default: 'blackboard'
       title:
         description: 'app title'
         required: true
-        default: 'Twitter'
+        default: 'Blackboard'
       name_zh:
         description: 'app name in Chinese'
         required: true
-        default: '推特'
+        default: '黑板'
       url:
         description: 'app url'
         required: true
-        default: 'https://twitter.com/'
+        default: 'https://www.suxieban.com/index.html#'
   workflow_call:
     inputs:
       name:
         description: 'app name'
         type: string
         required: true
-        default: 'twitter'
+        default: 'blackboard'
       title:
         description: 'app title'
         required: true
         type: string
-        default: 'Twitter'
+        default: 'Blackboard'
       name_zh:
         description: 'app name in Chinese'
         required: true
         type: string
-        default: '推特'
+        default: '黑板'
       url:
         description: 'app url'
         required: true
         type: string
-        default: 'https://twitter.com/'
+        default: 'ttps://www.suxieban.com/index.html#'
 
 jobs:
   build_single_app:
